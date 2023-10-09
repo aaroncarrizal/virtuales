@@ -1,0 +1,3 @@
+docker login
+docker pull aaronk45/virtuales:primer
+docker run -p 80:80 --name mi-contenedor aaronk45/virtuales:primer
